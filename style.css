@@ -136,7 +136,7 @@ header .show-bar:hover {
   background-image: url(freedom.webp);
 }
 .section:nth-child(5) {
-  background-image: url(https://i.postimg.cc/g0HsRvwr/bg5.jpg);
+  background-image: url(fact.jpg);
 }
 
 .section .section-span {
@@ -248,5 +248,27 @@ p{
   color:white;
 }
 .Pglow{
-  text-shadow: 0 0 20px  black, 0 0 20px grey, 0 0 20px darkgrey, 0 0 20px darkgrey, 0 0 20px darkgrey, 0 0 20px darkgrey, 0 0 20px, 0 0 20px  black, 0 0 20px  black, 0 0 20px  black ;
+  text-shadow: 0 0 20px  black, 0 0 20px  black,0 0 20px  black,0 0 20px  black,0 0 20px  black, 0 0 20px grey, 0 0 20px darkgrey, 0 0 20px darkgrey, 0 0 20px darkgrey, 0 0 20px darkgrey, 0 0 20px, 0 0 20px  black, 0 0 20px  black, 0 0 20px  black ;
+}
+table {
+  color:white;
+  border: 1px solid grey;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+
+  background-color: #04AA6D;
+  color: white;
+}
+.paddingLot{
+  padding-right: 1000px;
 }
